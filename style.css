@@ -68,14 +68,14 @@ header button:before,
 header button:after {
   font-family: "Font Awesome 5 Free";
   transition: all 0.8s cubic-bezier(0.645, 0.045, 0.355, 1);
-  top: 8px;
+  top: 17px;
   position: absolute;
 }
 
 header button:before {
   content: "cadeau";
   opacity: 1;
-  left: 53px;
+  /*  left: 53px;*/
 }
 
 header button:after {
