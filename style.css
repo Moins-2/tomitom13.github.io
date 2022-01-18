@@ -75,7 +75,7 @@ header button:after {
 header button:before {
   content: "Découvrir";
   opacity: 1;
-  left: 35px;
+  left: 25px;
 }
 
 header button:after {
