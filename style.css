@@ -108,8 +108,9 @@ header .triangle.right {
 }
 
 header.open {
-  background-image: url("./Artboard 1.png");
+  background-image: url("./Asset 1.png");
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 header.open .triangle.left {
