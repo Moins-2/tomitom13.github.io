@@ -129,7 +129,7 @@ header.open button:before {
 
 header.open button:after {
   opacity: 1;
-  left: 18px;
+  /* left: 18px;*/
 }
 
 header.open button.menu {
