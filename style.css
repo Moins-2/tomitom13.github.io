@@ -73,9 +73,9 @@ header button:after {
 }
 
 header button:before {
-  content: "cadeau";
+  content: "Découvrir";
   opacity: 1;
-  /*  left: 53px;*/
+  left: 35px;
 }
 
 header button:after {
