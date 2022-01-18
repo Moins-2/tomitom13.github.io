@@ -68,7 +68,7 @@ header button:before,
 header button:after {
   font-family: "Font Awesome 5 Free";
   transition: all 0.8s cubic-bezier(0.645, 0.045, 0.355, 1);
-  top: 17px;
+  top: 8px;
   position: absolute;
 }
 
