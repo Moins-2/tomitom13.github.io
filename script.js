@@ -9,7 +9,6 @@ function toggleNav() {
   else {
     $("button").addClass("menu");
     $("nav").fadeIn().css('display', 'flex');
-    console.log("1")
 
   }
 }
@@ -17,13 +16,13 @@ function toggleNav() {
 // when clicking + or ☰ button
 $("button").click(function () {
   // when clicking ☰ button, open nav
-  console.log("2")
   if ($("header").hasClass("open")) {
     toggleNav();
   }
   // when clicking + button, open header
   else {
     $("header").addClass("open");
+    $("button").addClass("invisible")
   }
 });
 
@@ -34,7 +33,6 @@ $("#nav-close").click(function () {
 
 // scroll to sections
 $("nav li").click(function () {
-  console.log("3")
   // get index of clicked li and select according section
   var index = $(this).index();
   var target = $("content section").eq(index);

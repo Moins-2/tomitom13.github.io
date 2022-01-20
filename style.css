@@ -79,9 +79,13 @@ header button:before {
 }
 
 header button:after {
-  content: "voir";
+  background-color: #001032;
+  height: 100%;
+  width: 150%;
+  content: "";
   opacity: 0;
   left: 0;
+  top: 0;
 }
 
 header button.invisible {
