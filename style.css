@@ -79,10 +79,13 @@ header button:before {
 }
 
 header button:after {
-  display: none;
   content: "voir";
   opacity: 0;
   left: 0;
+}
+
+header button.invisible {
+  display: none;
 }
 
 header .triangle {
