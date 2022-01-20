@@ -9,6 +9,8 @@ function toggleNav() {
   else {
     $("button").addClass("menu");
     $("nav").fadeIn().css('display', 'flex');
+    $("button").addClass("invisible")
+
   }
 }
 
@@ -21,7 +23,6 @@ $("button").click(function () {
   // when clicking + button, open header
   else {
     $("header").addClass("open");
-    $("button").addClass("invisible")
   }
 });
 
